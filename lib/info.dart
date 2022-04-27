@@ -31,9 +31,8 @@ class Info extends StatelessWidget {
               ),
               currentAccountPicture: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                /*child: Image.network(
-                    'https://scontent.frao3-1.fna.fbcdn.net/v/t1.6435-9/79119923_1390611784435433_8128028975487254528_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=84a396&_nc_eui2=AeH7FUhm1AiKMiEUqnGdxJffoiX9bVIkuSeiJf1tUiS5J_3XyWzhCT77p2Q3IUy5GLmzZ_lROLaxUkcQxQAF_Z7r&_nc_ohc=eJd0riRpRGQAX-OIhda&_nc_ht=scontent.frao3-1.fna&oh=00_AT9BZpTeMZsqi0aXS-ZLIUCX1TyK8DSxqxyXjHgix-VZZw&oe=62801FF4'),*/
-                    child:Image.asset('lib/imagem/konishi.jpg'),
+                child: Image.network(
+                    'https://scontent.frao3-1.fna.fbcdn.net/v/t1.6435-9/79119923_1390611784435433_8128028975487254528_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=84a396&_nc_eui2=AeH7FUhm1AiKMiEUqnGdxJffoiX9bVIkuSeiJf1tUiS5J_3XyWzhCT77p2Q3IUy5GLmzZ_lROLaxUkcQxQAF_Z7r&_nc_ohc=eJd0riRpRGQAX-OIhda&_nc_ht=scontent.frao3-1.fna&oh=00_AT9BZpTeMZsqi0aXS-ZLIUCX1TyK8DSxqxyXjHgix-VZZw&oe=62801FF4'),
               ),
             ),
             SizedBox(height: 30),
@@ -116,15 +115,14 @@ class Info extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 30),            
-                  Image.asset(
-                    'lib/imagem/konishi.jpg',
-                    scale: 5,
-                  ),
+                  Image.asset('lib/imagem/konishi.jpg',
+                  width:300,
+                  height: 300),
               SizedBox(height: 30),
               Text(
                 'Guilherme Konishi Yoshihara RA: 2840482021003 - cursando ADS - FATEC RP \n',

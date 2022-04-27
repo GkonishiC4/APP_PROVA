@@ -1,9 +1,9 @@
 import 'package:appprova/Login.dart';
 import 'package:appprova/Diametro.dart';
-import 'package:appprova/Rpm.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'Rpm.dart';
 import 'info.dart';
 
 class url_link extends StatefulWidget {
@@ -50,58 +50,58 @@ class _url_linkState extends State<url_link> {
             ),
             SizedBox(height: 30),
             Text(
-                'CATALOGO GERAL',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'TIPOS DE ACABAMENTOS SUPERFICIAIS ',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'TIPOS DE ACABAMENTOS SUPERFICIAIS ',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'ROLAMENTOS',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'CILINDROS PNEUMATICOS',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'MOTORES ELETRICOS',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'TABELA DE AJUSTE',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'CALCULADORA DE ROSCA',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
-              SizedBox(height: 30),
-              Text(
-                'CALCULADORA DE RPM',
-                style: TextStyle(color: Colors.black, fontSize: 20),
-                textAlign: TextAlign.center,
-              ),
+              'CATALOGO GERAL',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'TIPOS DE ACABAMENTOS SUPERFICIAIS ',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'TIPOS DE ACABAMENTOS SUPERFICIAIS ',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'ROLAMENTOS',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'CILINDROS PNEUMATICOS',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'MOTORES ELETRICOS',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'TABELA DE AJUSTE',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'CALCULADORA DE ROSCA',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 30),
+            Text(
+              'CALCULADORA DE RPM',
+              style: TextStyle(color: Colors.black, fontSize: 20),
+              textAlign: TextAlign.center,
+            ),
             SizedBox(height: 50),
             Text(
               'INFO',
@@ -121,7 +121,7 @@ class _url_linkState extends State<url_link> {
               },
             ),
             SizedBox(height: 40),
-              Text(
+            Text(
               'EXIT',
               style: TextStyle(
                   color: Color.fromARGB(255, 0, 0, 0),
