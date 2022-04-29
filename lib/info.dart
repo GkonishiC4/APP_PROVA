@@ -131,7 +131,7 @@ class Info extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                'APP: Este aplicativo tem como objetivo facilicar na consulta de itens como:\n\n'
+                'APP: Este aplicativo tem como objetivo facilitar na consulta de itens como:\n\n'
                 '    - Elementos de Fixacao\n'
                 '    - Rolamentos\n'
                 '    - Acabamentos Superficiais\n'
